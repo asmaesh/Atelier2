@@ -38,7 +38,5 @@ class Voiture {
   voitures.sort((a, b) => a.annee - b.annee);
   
   for (let i = 0; i < voitures.length; i++) {
-    console.log(`${voitures[i]['marque']} ${voitures[i].model} - Année: ${voitures[i].annee}`);
+    console.log(`${voitures[i].marque} ${voitures[i].model} - Année: ${voitures[i].annee}`);
   }
-
-  
